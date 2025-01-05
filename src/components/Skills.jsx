@@ -7,11 +7,13 @@ import img1 from '../assets/img1.jpeg';
 import img2 from '../assets/img2.avif';
 import img3 from '../assets/img3.jpeg';
 import img4 from '../assets/img4.jpg';
+import { Zoom } from "react-awesome-reveal";
 
 
 const Skills = () => {
     return (
-        <div className="">
+        <Zoom>
+            <div className="">
             <div className="text-center lg:w-2/3 mx-auto p-4">
             <h2 className="text-3xl font-bold">Skills</h2>
             <p>Expert in crafting responsive, user-friendly web interfaces using modern technologies like React, JavaScript, and CSS, with a focus on delivering seamless user experiences.</p>
@@ -63,6 +65,7 @@ const Skills = () => {
             </div>
         </div>
         </div>
+        </Zoom>
     );
 };
 

@@ -4,10 +4,12 @@ import project1 from '../assets/project1.png';
 import project2 from '../assets/project2.png';
 import project3 from '../assets/project3.png';
 import { Link } from 'react-router-dom';
+import { Zoom } from 'react-awesome-reveal';
 
 const Projects = () => {
     return (
-        <div className='mt-8'>
+        <Zoom>
+            <div className='mt-8'>
             <h2 className='text-3xl font-bold text-center py-4'>My Projects</h2>
             <div className='md:flex items-center gap-6 justify-center'>
             <div>
@@ -24,6 +26,7 @@ const Projects = () => {
             </div>
         </div>
         </div>
+        </Zoom>
     );
 };
 

@@ -1,8 +1,10 @@
 
+import { Zoom } from 'react-awesome-reveal';
 import image from '../assets/img.jpg';
 const Contact = () => {
     return (
-        <div className='my-8'>
+        <Zoom>
+          <div className='my-8'>
             <div className='text-center lg:w-2/3 mx-auto p-4'>
             <h1 className="text-3xl font-bold">Contact Me</h1>
             <p>Feel free to reach out if you have any questions, project inquiries, or collaboration opportunities. I am always open to connecting and discussing new ideas!</p>
@@ -38,6 +40,7 @@ const Contact = () => {
   </div>
 </div>
         </div>
+        </Zoom>
     );
 };
 
