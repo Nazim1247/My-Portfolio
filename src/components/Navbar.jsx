@@ -17,7 +17,7 @@ const Navbar = () => {
       <div tabIndex={1} role="button" className="btn btn-ghost lg:hidden">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-5 w-5"
+          className="h-8 w-8"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor">
@@ -35,7 +35,7 @@ const Navbar = () => {
       </ul>
     </div>
     <img className="w-12 h-12 rounded-full mr-3" src={logo} alt="" />
-    <a className="text-2xl font-bold">Nazim Uddin</a>
+    <a className="text-2xl font-bold hidden md:flex">Nazim Uddin</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">

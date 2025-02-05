@@ -34,29 +34,29 @@ const Skills = () => {
             <h2 className="text-3xl font-bold">Others Skills</h2>
             <p>In addition to frontend development, I possess a diverse set of skills, including expertise in UI/UX design, ensuring that every interface is intuitive and engaging. I am also proficient in web performance optimization, ensuring fast loading times and smooth interactions, enhancing the overall user experience. My focus is always on delivering high-quality, responsive designs that work seamlessly across devices and platforms.</p>
         </div>
-        <div className="lg:grid grid-cols-2 gap-4 space-y-4 p-4">
-            <div className="md:flex items-center gap-4 border-2 shadow-md p-2 rounded-md">
+        <div className="grid lg:grid-cols-2 gap-4 p-4">
+            <div className="flex flex-col md:flex-row items-center gap-4 border-2 shadow-md p-2 rounded-md">
                 <img className="md:w-48" src={img1} alt="" />
                 <div>
                     <h2 className="text-xl font-semibold mb-2">Frontend Developer</h2>
                     <p>A Frontend Developer specializes in building the visual and interactive aspects of websites and applications. They work with technologies like HTML, CSS, and JavaScript to create user-friendly interfaces, ensuring that the design is both functional and visually appealing.</p>
                 </div>
             </div>
-            <div className="md:flex items-center gap-4 border-2 shadow-md p-2 rounded-md">
+            <div className="flex flex-col md:flex-row items-center gap-4 border-2 shadow-md p-2 rounded-md">
                 <img className="md:w-48" src={img2} alt="" />
                 <div>
                     <h2 className="text-xl font-semibold mb-2">UI/UX Design</h2>
                     <p>UI/UX Design focuses on creating intuitive, user-centered designs for digital products. UI (User Interface) involves designing the visual elements, such as buttons, layouts, and typography, while UX (User Experience) ensures that the overall interaction is smooth, engaging.</p>
                 </div>
             </div>
-            <div className="md:flex items-center gap-4 border-2 shadow-md p-2 rounded-md">
+            <div className="flex flex-col md:flex-row items-center gap-4 border-2 shadow-md p-2 rounded-md">
                 <img className="md:w-48" src={img3} alt="" />
                 <div>
                     <h2 className="text-xl font-semibold mb-2">Responsive Design</h2>
                     <p>Responsive Design is an approach to web design that ensures a website looks and functions well across all devices, from desktops to smartphones. It uses flexible layouts, images, and CSS media queries to adjust the content and design based on the screen size and resolution.</p>
                 </div>
             </div>
-            <div className="md:flex items-center gap-4 border-2 shadow-md p-2 rounded-md">
+            <div className="flex flex-col md:flex-row items-center gap-4 border-2 shadow-md p-2 rounded-md">
                 <img className="md:w-48" src={img4} alt="" />
                 <div>
                     <h2 className="text-xl font-semibold mb-2">Web Performance Optimization</h2>

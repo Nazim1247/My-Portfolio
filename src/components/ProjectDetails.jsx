@@ -8,10 +8,12 @@ const ProjectDetails = () => {
             <h2 className="font-semibold">Brief Description:</h2>
             <p>A full-stack e-commerce application for managing products, orders, and user accounts.</p>
             <p className="font-semibold">Live Link:</p>
-            <p>https://assignment-11-6b184.web.app/</p>
+            <a href="https://assignment-11-6b184.web.app">https://assignment-11-6b184.web.app</a>
             <p className="font-semibold">GitHub Link:</p>
-            <p>Server Side: https://github.com/Nazim1247/Assignment-11-server </p>
-            <p>Client Side: https://github.com/Nazim1247/Assignment-11-client</p>
+            <p>Server Side:</p>
+            <a href="https://github.com/Nazim1247/Assignment-11-server">https://github.com/Nazim1247/Assignment-11-server</a>
+            <p>Client Side:</p>
+            <a href="https://github.com/Nazim1247/Assignment-11-client">https://github.com/Nazim1247/Assignment-11-client</a>
             <p className="font-semibold">Details:</p>
             <p>
                 This project features user authentication, product search and filter, a cart system, and payment gateway integration. Admins can manage products and orders via a dedicated admin panel.
