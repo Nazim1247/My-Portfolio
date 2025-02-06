@@ -10,9 +10,9 @@ const Navbar = () => {
     <a className='btn' href="#contact">Contact</a>
     </div>
     return (
-        <div className='sticky top-0 z-50'>
-            <div className="navbar bg-base-200 shadow-md">
-  <div className="navbar-start w-full">
+        <div className=' w-11/12 mx-auto'>
+            <div className="navbar ">
+  <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={1} role="button" className="btn btn-ghost lg:hidden">
         <svg
@@ -43,7 +43,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn btn-primary" href='https://drive.google.com/file/d/198_vPtoQs1prLO2zHPqYNDuEI_49boEI/view?usp=sharing'>Download Resume</a>
+    <a href='https://drive.google.com/file/d/198_vPtoQs1prLO2zHPqYNDuEI_49boEI/view?usp=sharing'><button className="btn btn-primary">Download Resume</button></a>
   </div>
 </div>
         </div>
