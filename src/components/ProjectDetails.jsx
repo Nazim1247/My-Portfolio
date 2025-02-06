@@ -2,7 +2,7 @@
 
 const ProjectDetails = () => {
     return (
-        <div className="p-6">
+        <div className="p-6 border shadow rounded-lg my-4">
             <h2 className="font-semibold">Main Tech Stack:</h2>
             <p>Node.js, Express.js, MongoDB, React, Redux</p>
             <h2 className="font-semibold">Brief Description:</h2>
@@ -10,9 +10,6 @@ const ProjectDetails = () => {
             <p className="font-semibold">Live Link:</p>
             <a href="https://assignment-11-6b184.web.app">https://assignment-11-6b184.web.app</a>
             <p className="font-semibold">GitHub Link:</p>
-            <p>Server Side:</p>
-            <a href="https://github.com/Nazim1247/Assignment-11-server">https://github.com/Nazim1247/Assignment-11-server</a>
-            <p>Client Side:</p>
             <a href="https://github.com/Nazim1247/Assignment-11-client">https://github.com/Nazim1247/Assignment-11-client</a>
             <p className="font-semibold">Details:</p>
             <p>

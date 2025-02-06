@@ -44,16 +44,16 @@ const Contact = () => {
 <div className='border shadow p-6 rounded-md w-full'>
 <form ref={form} onSubmit={sendEmail}>
       <div>
-      <label>Your Name</label>
-      <input type="text" name="form_name" className="input input-bordered w-full" required />
+      <label>Name</label>
+      <input type="text" name="form_name" className="input input-bordered w-full bg-gray-200 text-gray-800 dark:bg-gray-800 dark:text-gray-200" placeholder='type Here Your Name' required />
       </div>
       <div>
-      <label>Your Email</label>
-      <input type="email" name="form_email" className="input input-bordered w-full" required />
+      <label>Email</label>
+      <input type="email" name="form_email" className="input input-bordered w-full bg-gray-200 text-gray-800 dark:bg-gray-800 dark:text-gray-200" placeholder='type Here Your Email' required />
       </div>
       <div>
-      <label>Your Message</label>
-      <textarea name="message" className="textarea textarea-bordered w-full" required />
+      <label>Message</label>
+      <textarea name="message" className="textarea textarea-bordered w-full bg-gray-200 text-gray-800 dark:bg-gray-800 dark:text-gray-200" placeholder='type Here Your Message' required />
       </div>
       <input type="submit" value="Send" className='text-center btn btn-sm btn-primary w-full'/>
     </form>
