@@ -1,7 +1,28 @@
 
 import { Zoom } from 'react-awesome-reveal';
 import image from '../assets/img.jpg';
+import emailjs from '@emailjs/browser';
+import { useRef } from 'react';
+
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_226e92c', 'template_8lf42co', form.current, {
+        publicKey: '6pY8emc24oYEA_fbW',
+      })
+      .then(
+        (result) => {
+          console.log('SUCCESS!',result);
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
     return (
         <Zoom>
           <div className='my-8'>
@@ -11,32 +32,30 @@ const Contact = () => {
             </div>
             <div className="hero">
   <div className="hero-content flex-col lg:flex-row-reverse">
-    <div className="text-center lg:text-left w-full space-y-3">
+    <div className="text-center w-full space-y-3">
       
       <img className='w-28 h-28 rounded-full mx-auto' src={image} alt="" />
       <p>Phone: 01924772057 (WhatsApp)</p>
       <p>Email: mdnajim1247@gmail.com</p>
       <p>Location: Dhaka Bangladesh</p>
     </div>
-    <div className="card bg-base-100 w-full shadow-md">
-      <form className="card-body">
-        <div className="form-control">
-          
-          <input type="text" placeholder="Your Name" className="input input-bordered" required />
-        </div>
-        <div className="form-control">
-          
-          <input type="email" placeholder="Your Email" className="input input-bordered" required />
-        </div>
-        <div className="form-control">
-          
-          <textarea className="textarea textarea-bordered" placeholder="Your Message"></textarea>
-        </div>
-        <div className="form-control mt-6">
-          <button className="btn btn-primary">Submit</button>
-        </div>
-      </form>
-    </div>
+
+<form ref={form} onSubmit={sendEmail}>
+      <div>
+      <label>Your Name</label>
+      <input type="text" name="form_name" className="input input-bordered" required />
+      </div>
+      <div>
+      <label>Your Email</label>
+      <input type="email" name="form_email" className="input input-bordered" required />
+      </div>
+      <div>
+      <label>Your Message</label>
+      <textarea name="message" className="textarea textarea-bordered w-full" required />
+      </div>
+      <input type="submit" value="Send" className='text-center btn btn-sm btn-primary w-full'/>
+    </form>
+
   </div>
 </div>
         </div>
