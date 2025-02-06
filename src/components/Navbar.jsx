@@ -43,7 +43,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn btn-primary" href='https://docs.google.com/document/d/1VQ7nFEn27QH6-mBFwsVJwLJhCM40OnjVh3ofymu5IuM/edit?usp=sharing'>Download Resume</a>
+    <a className="btn btn-primary" href='https://drive.google.com/file/d/198_vPtoQs1prLO2zHPqYNDuEI_49boEI/view?usp=sharing'>Download Resume</a>
   </div>
 </div>
         </div>
