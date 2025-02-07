@@ -53,7 +53,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a href='https://drive.google.com/file/d/198_vPtoQs1prLO2zHPqYNDuEI_49boEI/view?usp=sharing'><button className="btn ">Download Resume</button></a>
+    <a href='https://drive.google.com/uc?export=download&id=198_vPtoQs1prLO2zHPqYNDuEI_49boEI'><button className="btn ">Download Resume</button></a>
     <button onClick={handleTheme} className='btn btn-ghost text-4xl md:ml-1'>{darkMode?<BsFillMoonStarsFill className='text-gray-500' title='Click for Light Mode' />:<MdOutlineLightMode className='text-white' title='Click for Dark Mode'/>}</button>
   </div>
 </div>

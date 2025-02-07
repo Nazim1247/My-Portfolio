@@ -6,7 +6,11 @@ const About = () => {
         <Zoom>
             <div className='text-center lg:w-2/3 mx-auto my-8 p-4'>
             <h2 className="text-3xl font-bold">About Me</h2>
-            <p>I am a passionate and dedicated individual with a strong enthusiasm for technology and creativity. As a frontend developer, I specialize in crafting user-friendly and visually appealing websites and applications. I thrive on solving problems, learning new skills, and turning innovative ideas into functional designs. Beyond coding, I enjoy exploring new technologies, collaborating with others, and constantly challenging myself to grow both personally and professionally. My goal is to create meaningful digital experiences that leave a lasting impact.</p>
+            <p>Hi, I am Nazim Uddin! A passionate Frontend Developer who loves building modern, user-friendly web applications. My journey started with curiosity about web development, leading me to master React, Tailwind CSS, Node.js, and MongoDB.
+            <span className="font-semibold italic">What I Love:</span> Creating interactive UI/UX designs, optimizing performance, and solving coding challenges.
+            <span className="font-semibold italic">Beyond Code:</span> I enjoy playing sports, exploring design trends, and staying updated with new technologies.
+            Passionate about turning ideas into reality through clean code and sleek designs!
+            </p>
         </div>
         </Zoom>
     );

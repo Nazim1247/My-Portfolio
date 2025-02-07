@@ -27,7 +27,7 @@ const Banner = () => {
         <a className='text-blue-500' href="https://web.facebook.com/hm.nazim.uddin.86882?rdid=agS7SqQb8EJgkEO6&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2F1BPK8VijLn%2F%3F_rdc%3D1%26_rdr"><FaFacebook /></a>
         <a className='text-red-500' href="https://youtube.com/@najimuddin-cv5eb?si=_8af_dlegJFyWeNJ"><FaYoutube /></a>
       </div>
-      <a href="https://drive.google.com/file/d/198_vPtoQs1prLO2zHPqYNDuEI_49boEI/view?usp=sharing"><button className="btn btn-primary">Download Resume</button></a>
+      <a href="https://drive.google.com/uc?export=download&id=198_vPtoQs1prLO2zHPqYNDuEI_49boEI"><button className="btn btn-primary">Download Resume</button></a>
     </div>
   </div>
 </div>
