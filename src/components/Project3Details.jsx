@@ -2,7 +2,7 @@
 
 const Project3Details = () => {
     return (
-        <div className="p-6 border shadow rounded-lg my-4">
+        <div className="p-6 shadow rounded-lg my-4 bg-gray-200 dark:bg-gray-800">
             <h2 className="font-semibold">Main Tech Stack:</h2>
             <p>Frontend: React, Tailwind CSS</p>
             <p>Backend: Node.js, Express.js</p>

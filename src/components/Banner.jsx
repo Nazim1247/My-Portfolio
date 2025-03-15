@@ -6,17 +6,17 @@ const Banner = () => {
     return (
         <div>
             <Zoom>
-            <div className="hero ">
-  <div className="hero-content flex-col lg:flex-row-reverse">
+            <div className=" bg-gray-200 dark:bg-gray-800 rounded-lg mt-4 shadow">
+  <div className="flex flex-col lg:flex-row-reverse p-4">
     <img
       src={image}
-      className="lg:w-96 w-full rounded-lg lg:h-96" />
-    <div className='lg:w-3/6'>
+      className="lg:w-96  rounded-lg lg:h-96" />
+    <div className='lg:w-4/6 p-2'>
     <Slide>
-    <p>Hi I am Nazim Uddin</p>
+    <p className='text-green-500 text-xl'>Hi I am Nazim Uddin</p>
       <h1 className="text-3xl font-bold">Frontend Developer</h1>
       </Slide>
-      <Fade delay={1e3} cascade damping={1e-1}>
+      <Fade className='text-purple-600 text-xl' delay={1e3} cascade damping={1e-1}>
       Web Developer, Full Stack Developer
       </Fade>
       <p className="py-4">

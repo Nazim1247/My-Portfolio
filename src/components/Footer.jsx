@@ -4,8 +4,8 @@ import { IoLogoYoutube } from "react-icons/io";
 
 const Footer = () => {
     return (
-        <div>
-           <footer className="footer bg-neutral text-neutral-content items-center p-4">
+        <div className="bg-neutral">
+           <footer className="footer text-neutral-content items-center py-4 w-11/12 mx-auto">
   <aside className="grid-flow-col items-center">
     
     <p>Copyright © {new Date().getFullYear()} - All right reserved</p>

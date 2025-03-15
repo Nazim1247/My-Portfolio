@@ -1,4 +1,4 @@
-import { FaAngleUp } from "react-icons/fa";
+// import { FaAngleUp } from "react-icons/fa";
 import About from "./About";
 import Banner from "./Banner";
 import Contact from "./Contact";
@@ -14,7 +14,7 @@ const Home = () => {
            <div id="skills"><Skills></Skills></div>
            <div id="projects"><Projects></Projects></div>
            <div id="contact"><Contact></Contact></div>
-           <a className="text-3xl flex justify-end mb-4 mr-4" href="#home"><FaAngleUp /></a>
+           {/* <a className="text-3xl flex justify-end mb-4 mr-4" href="#home"><FaAngleUp /></a> */}
         </div>
     );
 };
