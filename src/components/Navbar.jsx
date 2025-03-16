@@ -62,7 +62,7 @@ const handleTheme = ()=>{
     </ul>
   </div>
   <div className="navbar-end">
-    <a href='https://drive.google.com/uc?export=download&id=198_vPtoQs1prLO2zHPqYNDuEI_49boEI' className='flex items-center btn btn-sm btn-ghost text-lg'><RiDownload2Line /><button className="">Resume</button></a>
+    <a href='https://drive.google.com/uc?export=download&id=12Y66z0fUA5RmBhSHxhb4QhGXELtocd-r' className='flex items-center btn btn-sm btn-ghost text-lg'><RiDownload2Line /><button className="">Resume</button></a>
     <button onClick={handleTheme} className='btn btn-sm btn-ghost text-4xl md:ml-1'>
       {theme === 'light'?
     <MdOutlineLightMode className='text-white' title='Click for Dark Mode'/>:
