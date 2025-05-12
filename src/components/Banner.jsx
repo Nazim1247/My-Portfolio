@@ -10,13 +10,13 @@ const Banner = () => {
   <div className="flex flex-col lg:flex-row-reverse p-4">
     <img
       src={image}
-      className="lg:w-96  rounded-lg lg:h-96" />
+      className="lg:w-96  lg:rounded-full lg:h-96" />
     <div className='lg:w-4/6 p-2'>
     <Slide>
     <p className='text-green-500 text-xl'>Hi I am Nazim Uddin</p>
-      <h1 className="text-3xl font-bold">Frontend Developer</h1>
+      <h1 className="text-2xl md:text-3xl font-bold">Frontend Developer</h1>
       </Slide>
-      <Fade className='text-purple-600 text-xl' delay={1e3} cascade damping={1e-1}>
+      <Fade className='text-purple-600 text-sm md:text-xl' delay={1e3} cascade damping={1e-1}>
       Web Developer, Full Stack Developer
       </Fade>
       <p className="py-4">
@@ -27,7 +27,7 @@ const Banner = () => {
         <a className='text-blue-500' href="https://web.facebook.com/hm.nazim.uddin.86882?rdid=agS7SqQb8EJgkEO6&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2F1BPK8VijLn%2F%3F_rdc%3D1%26_rdr"><FaFacebook /></a>
         <a className='text-red-500' href="https://youtube.com/@najimuddin-cv5eb?si=_8af_dlegJFyWeNJ"><FaYoutube /></a>
       </div>
-      <a href="https://drive.google.com/uc?export=download&id=1Q2Di9qO9l7hJMAX0ZOTgU7mL93mb8Ilx"><button className="btn btn-primary">Download Resume</button></a>
+      <a href="https://drive.google.com/uc?export=download&id=1TRRO3uzpXFcjHNQ3XfZ-n5hKzLDSrEWF"><button className="btn btn-primary">Download Resume</button></a>
     </div>
   </div>
 </div>
