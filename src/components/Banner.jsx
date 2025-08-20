@@ -6,11 +6,11 @@ const Banner = () => {
     return (
         <div>
             <Zoom>
-            <div className=" bg-gray-200 dark:bg-gray-800 rounded-lg mt-4 shadow">
+            <div className=" ">
   <div className="flex flex-col lg:flex-row-reverse p-4">
     <img
       src={image}
-      className="lg:w-96  lg:rounded-full lg:h-96" />
+      className="w-60 h-60 md:w-96 md:h-96 mx-auto rounded-full animate-pulse" />
     <div className='lg:w-4/6 p-2'>
     <Slide>
     <p className='text-green-500 text-xl'>Hi I am Nazim Uddin</p>
@@ -27,7 +27,7 @@ const Banner = () => {
         <a className='text-blue-500' href="https://web.facebook.com/hm.nazim.uddin.86882?rdid=agS7SqQb8EJgkEO6&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2F1BPK8VijLn%2F%3F_rdc%3D1%26_rdr"><FaFacebook /></a>
         <a className='text-red-500' href="https://youtube.com/@najimuddin-cv5eb?si=_8af_dlegJFyWeNJ"><FaYoutube /></a>
       </div>
-      <a href="https://drive.google.com/uc?export=download&id=1TRRO3uzpXFcjHNQ3XfZ-n5hKzLDSrEWF"><button className="btn btn-primary">Download Resume</button></a>
+      <a href="https://drive.google.com/uc?export=download&id=1tB7HYhOpPPAaDWW-2epgTZR9E1G0jY0R"><button className="btn btn-primary animate-pulse">Download Resume</button></a>
     </div>
   </div>
 </div>

@@ -4,11 +4,11 @@ import { IoLogoYoutube } from "react-icons/io";
 
 const Footer = () => {
     return (
-        <div className="bg-neutral">
+        <div className="bg-gray-300 dark:bg-neutral">
            <footer className="footer text-neutral-content items-center py-4 w-11/12 mx-auto">
   <aside className="grid-flow-col items-center">
     
-    <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
+    <p className="text-black dark:text-white">Copyright © {new Date().getFullYear()} - All right reserved</p>
   </aside>
   <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
     <a href="https://www.linkedin.com/in/hm-nazim-uddin">
