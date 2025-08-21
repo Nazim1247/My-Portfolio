@@ -8,7 +8,7 @@ import { RiDownload2Line } from 'react-icons/ri';
 const Navbar = () => {
   const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
     const links = <div className='text-lg flex flex-col lg:flex-row gap-3'>
-    <a className='btn btn-ghost btn-sm' href="#home">Home</a>
+    <a className='btn btn-ghost btn-sm' href="/">Home</a>
     <a className='btn btn-ghost btn-sm' href="#about">About</a>
     <a className='btn btn-ghost btn-sm' href="#skills">Skills</a>
     <a className='btn btn-ghost btn-sm' href="#projects">Projects</a>
@@ -34,26 +34,15 @@ const handleTheme = ()=>{
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={1} role="button" className="btn btn-ghost btn-sm lg:hidden">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-8 w-8"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor">
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M4 6h16M4 12h8m-8 6h16" />
-        </svg>
+        <img src={logo} className='w-10 h-10' alt="Logo" />
       </div>
       <ul
         tabIndex={1}
-        className="menu menu-sm dropdown-content bg-primary rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        className="menu menu-sm dropdown-content bg-gray-200 dark:bg-gray-800 rounded-box z-[1] mt-3 w-52 p-2 shadow">
         {links}
       </ul>
     </div>
-    <img className="w-10 h-10 rounded-full md:mr-3" src={logo} alt="" />
+    <img className="w-10 h-10 rounded-full hidden lg:flex md:mr-3" src={logo} alt="Logo" />
     <a className="text-2xl font-bold hidden md:flex">Nazim Uddin</a>
   </div>
   <div className="navbar-center hidden lg:flex">
