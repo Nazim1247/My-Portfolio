@@ -9,7 +9,7 @@ const Projects = () => {
     return (
         <Zoom>
             <div className='mt-8'>
-            <h2 className='text-3xl font-bold text-center py-4'>My Projects</h2>
+            <h2 className='text-3xl font-bold text-center py-4 text-green-500'>My Projects</h2>
             <div className='flex flex-col lg:flex-row items-center gap-6 justify-center'>
 
             <div className='space-y-4 bg-gray-200 dark:bg-gray-800 shadow p-4 rounded-lg hover:scale-105 transition'>
@@ -18,9 +18,9 @@ const Projects = () => {
             <a href="https://islamic-learning-platform.vercel.app"><img title='Click to view live site' className='rounded-lg' src={project1} alt="" /></a>
 
             <div className='flex justify-center items-center gap-4'>
-            <p className=''><Link to='/projectDetails' className='btn btn-sm btn-primary' href="">Details</Link></p>
-            <a href="https://islamic-learning-platform.vercel.app"><button className='btn btn-sm btn-primary'>Live Link</button></a>
-            <a href="https://github.com/Nazim1247/Islamic-Learning-Platform"><button className='btn btn-sm btn-primary'>Github Link</button></a>
+            <p className=''><Link to='/projectDetails' className='btn btn-sm bg-green-500 hover:bg-green-600 text-white' href="">Details</Link></p>
+            <a href="https://islamic-learning-platform.vercel.app"><button className='btn btn-sm bg-green-500 hover:bg-green-600 text-white'>Live Link</button></a>
+            <a href="https://github.com/Nazim1247/Islamic-Learning-Platform"><button className='btn btn-sm bg-green-500 hover:bg-green-600 text-white'>Github Link</button></a>
             </div>
             </div>
 
@@ -30,9 +30,9 @@ const Projects = () => {
             <a href="https://assignment-12-2f479.web.app"><img title='Click to view live site' className='rounded-lg' src={project3} alt="" /></a>
 
             <div className='flex justify-center items-center gap-4'>
-            <p className=''><Link to='/project3Details' className='btn btn-sm btn-primary' href="">Details</Link></p>
-            <a href="https://assignment-12-2f479.web.app"><button className='btn btn-sm btn-primary'>Live Link</button></a>
-            <a href="https://github.com/Nazim1247/Assignment-12-client"><button className='btn btn-sm btn-primary'>Github Link</button></a>
+            <p className=''><Link to='/project3Details' className='btn btn-sm bg-green-500 hover:bg-green-600 text-white' href="">Details</Link></p>
+            <a href="https://assignment-12-2f479.web.app"><button className='btn btn-sm bg-green-500 hover:bg-green-600 text-white'>Live Link</button></a>
+            <a href="https://github.com/Nazim1247/Assignment-12-client"><button className='btn btn-sm bg-green-500 hover:bg-green-600 text-white'>Github Link</button></a>
             </div>
             </div>
 
@@ -42,9 +42,9 @@ const Projects = () => {
             <a href="https://job-finder-portal-five.vercel.app"><img title='Click to view live site' className='rounded-lg' src={project2} alt="" /></a>
 
             <div className='flex justify-center items-center gap-4'>
-            <p className=''><Link to='/project2Details' className='btn btn-sm btn-primary' href="">Details</Link></p>
-            <a href="https://job-finder-portal-five.vercel.app"><button className='btn btn-sm btn-primary'>Live Link</button></a>
-            <a href="https://github.com/Nazim1247/Job-Finder-Portal"><button className='btn btn-sm btn-primary'>Github Link</button></a>
+            <p className=''><Link to='/project2Details' className='btn btn-sm bg-green-500 hover:bg-green-600 text-white' href="">Details</Link></p>
+            <a href="https://job-finder-portal-five.vercel.app"><button className='btn btn-sm bg-green-500 hover:bg-green-600 text-white'>Live Link</button></a>
+            <a href="https://github.com/Nazim1247/Job-Finder-Portal"><button className='btn btn-sm bg-green-500 hover:bg-green-600 text-white'>Github Link</button></a>
             </div>
             </div>
             

@@ -27,7 +27,7 @@ const Contact = () => {
         <Zoom>
           <div className='my-8'>
             <div className='text-center'>
-            <h1 className="text-3xl font-bold mb-2">Contact Me</h1>
+            <h1 className="text-3xl font-bold mb-2 text-green-500">Contact Me</h1>
             <p className='mb-4'>Feel free to reach out if you have any questions, project inquiries, or collaboration opportunities. I am always open to connecting and discussing new ideas!</p>
             </div>
             <div className="">
@@ -55,7 +55,7 @@ const Contact = () => {
       <label>Message</label>
       <textarea name="message" className="textarea textarea-bordered w-full bg-gray-200 text-gray-800 dark:bg-gray-700 dark:text-gray-200" placeholder='type Here Your Message' required />
       </div>
-      <input type="submit" value="Send" className='text-center btn btn-sm btn-primary w-full'/>
+      <input type="submit" value="Send" className='text-center btn btn-md bg-green-500 hover:bg-green-600 text-white w-full'/>
     </form>
 </div>
 

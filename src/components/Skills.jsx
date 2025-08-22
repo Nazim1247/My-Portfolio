@@ -29,8 +29,12 @@ const Skills = () => {
       },
       {
         breakpoint: 640,
+        settings: { slidesToShow: 2 }
+      },
+      {
+        breakpoint: 425,
         settings: { slidesToShow: 1 }
-      }
+      },
     ]
   };
     return (
@@ -38,7 +42,7 @@ const Skills = () => {
     <div className="">
 
     <div className="text-center mx-auto">
-    <h2 className="text-3xl font-bold">My Skills</h2>
+    <h2 className="text-3xl font-bold text-green-500">My Skills</h2>
     <div className="mt-8 text-3xl">
     <Slider {...settings}>
 
@@ -56,7 +60,7 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className="px-2">
+      <div className="lg:px-2">
         <div className="shadow text-center w-full py-4 rounded-lg dark:bg-gray-800 hover:scale-110 transition bg-gray-200">
           <a className="text-blue-500 text-7xl" href="https://tailwindcss.com/"><RiTailwindCssFill className="mx-auto"/></a>
           <h3>Tailwind CSS</h3>
@@ -140,7 +144,7 @@ const Skills = () => {
 
         <Zoom>
         <div className="text-center mt-8">
-            <h2 className="text-3xl font-bold">Others Skills</h2>
+            <h2 className="text-3xl font-bold text-green-500">Others Skills</h2>
             <p>In addition to frontend development, I possess a diverse set of skills, including expertise in UI/UX design, ensuring that every interface is intuitive and engaging. I am also proficient in web performance optimization, ensuring fast loading times and smooth interactions, enhancing the overall user experience. My focus is always on delivering high-quality, responsive designs that work seamlessly across devices and platforms.</p>
         </div>
         <div className="grid lg:grid-cols-2 gap-8 mt-6">
