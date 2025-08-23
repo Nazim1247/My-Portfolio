@@ -25,7 +25,7 @@ const Skills = () => {
     cssEase: "linear",
     responsive: [
       {
-        breakpoint: 430,
+        breakpoint: 480,
         settings: { slidesToShow: 1 }
       },
       {
