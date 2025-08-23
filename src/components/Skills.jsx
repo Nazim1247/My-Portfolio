@@ -11,9 +11,18 @@ import { Zoom } from "react-awesome-reveal";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css"; 
+import { useEffect, useState } from "react";
 
 
 const Skills = () => {
+  const [windowWidth, setWindowWidth] = useState(0);
+
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    handleResize(); // প্রথমবার call
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
     const settings = {
     infinite: true,
     speed: 2000,
@@ -43,8 +52,8 @@ const Skills = () => {
 
     <div className="text-center mx-auto">
     <h2 className="text-3xl font-bold text-green-500">My Skills</h2>
-    <div className="mt-8 text-3xl">
-    <Slider {...settings}>
+    <div className="mt-8 text-3xl" style={{ maxWidth: "100%", margin: "0 auto" }}>
+    <Slider {...settings} key={windowWidth}>
 
       <div className="px-2">
         <div className="shadow w-full text-center py-4 rounded-lg dark:bg-gray-800 hover:scale-110 transition bg-gray-200">
